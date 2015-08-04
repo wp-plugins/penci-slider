@@ -1,0 +1,167 @@
+.penci-metabox-table tr {
+    border-top: 1px solid #EEEEEE;
+}
+.penci-metabox-table th {
+    width: 25%;
+}
+.penci-metabox-table label span {
+    color: #999999;
+    font-size: 12px;
+    display: block;
+    line-height: 20px;
+    margin: 0px 0 0;
+    font-weight: normal;
+}
+.penci-metabox-table input, .penci-metabox-table textarea {
+    float: left;
+    margin-right: 20px;
+    width: 100%;
+    transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+}
+.penci-metabox-table textarea#_penci_slider_caption, .penci-metabox-table input#_penci_slider_heading {
+  	transition: border-color 0.2s linear;
+  	-webkit-transition: border-color 0.2s linear;
+}
+.penci-metabox-table input[type=checkbox] {
+	width: 20px;
+}
+.penci-metabox-table .button-secondary.has-margin {
+	margin-top: 20px;
+	transition: none;
+	-webkit-transition: none;
+	-moz-transition: none;
+}
+.penci-metabox-table input.file {
+    width: 85%;
+}
+.penci-metabox-table input.button {
+    margin-right: 0;
+    width: auto;
+}
+.penci-metabox-table input.radio {
+    float: none;
+    margin-right: 3px;
+    width: auto;
+}
+.penci-metabox-table .radio-label {
+    margin-right: 10px;
+}
+.penci-opts-screenshot[src=""] {
+	height:1px;
+	width: 1px;
+	opacity: 0;
+}
+.penci-metabox-table img {
+	width: 50%;
+	display: block;
+}
+.slider-thumb {
+	width: 85%;
+	margin-right: 15%;
+}
+td.caption.column-caption,
+td.actions.column-actions,
+.type-penci_slider td.column-title,
+.type-penci_slider td.column-date,
+.type-penci_slider th.check-column {
+	vertical-align: middle;
+}
+.type-penci_slider a,
+.type-penci_slider a:focus {
+	outline: none;
+}
+.type-penci_slider td.column-title strong {
+	display: none;
+}
+.type-penci_slider td.column-title .row-actions {
+	visibility: visible;
+}
+td.caption.column-caption, .manage-column.column-caption {
+	width: 42%;
+}
+td.thumbnail.column-thumbnail, .manage-column.column-thumbnail {
+	width: 18%;
+	padding: 10px;
+}
+td.menu_order.column-menu_order {
+	font-size: 34px;
+	line-height: 34px;
+}
+td.caption.column-caption {
+	font-size: 24px;
+	padding-right: 20px;
+	line-height: 28px;
+}
+.post-type-penci_slider td.caption.column-caption img,
+.penci_slider_page_nectar-slide-order td.caption.column-caption img {
+	max-width: 35%;
+	display: block;
+	background-color: #F9F9F9;
+}
+
+/* = Form General Options
+--------------------------------------------------------------*/
+
+/*------- Tab ---------*/
+.kang-tabs a,
+.kang-tabs a:active,
+.kang-tabs a:focus {
+	outline: none;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+}
+.kang-tabs-content {
+	margin: 20px 0 0;
+}
+.kang-tabs-content > div {
+	display: none;
+}
+.kang-tabs-content > div:first-child {
+	display: block;
+}
+/*------- Settings field ---------*/
+.kang-settings-field {
+	display: inline-block;
+	width: 100%;
+	vertical-align: top;
+	margin-bottom: 30px;
+}
+.kang-settings-label,
+.kang-settings-input {
+	display: inline-block;
+	vertical-align: top;
+}
+.kang-settings-label label,
+span.penci-more-detail {
+	display: inline-block;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 1.3;
+	color: #222;
+	min-width: 220px;
+	margin-top: 8px;
+}
+span.penci-more-detail {
+	min-width: 0;
+	font-weight: normal;
+	margin-left: 5px;
+}
+h3.penci-admin-h3 {
+	padding-bottom: 15px;
+	border-bottom: 1px solid #ccc;
+}
+h4.penci-admin-h4 span {
+	font-size: 1.15em;
+	display: inline-block;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 10px;
+}
+
+/* Icon shortcode */
+.mce-toolbar .mce-btn i.mce-i-pencislider_icon {
+	background: url('../images/penci-shortcode.png') no-repeat center center;
+}
