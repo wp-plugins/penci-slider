@@ -48,8 +48,6 @@ You need a theme? see [our premium themes](http://themeforest.net/user/pencidesi
 
 Our have a support forum [here](http://support.pencidesign.com/).
 
-You need a theme? see [our premium themes](http://themeforest.net/user/pencidesign/portfolio?rel=pencidesign).
-
 == Installation ==
 
 1. Upload the `plugin` folder to the `/wp-content/plugins/` directory
