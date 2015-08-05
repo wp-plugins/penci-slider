@@ -62,7 +62,8 @@ Our have a support forum [here](http://support.pencidesign.com/).
 2. Responsive Design Options
 3. Add New A Slide 
 4. Manage Slides
-5. Penci Slider Example
+5. Penci Slider shortcode general. Go to Admin > Add New Page/Post ( or edit screen ) and you will see Penci Slider shortcode button
+6. Penci Slider Example
 
 == Frequently Asked Questions ==
 
