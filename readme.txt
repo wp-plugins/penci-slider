@@ -12,6 +12,8 @@ Easy to create a WordPress slider, full responsive, nice element transition, loa
 
 == Description ==
 
+http://www.youtube.com/watch?v=rbYXlOAdoYU
+
 Creating slideshows with [Penci Slider](http://pencidesign.com/) is fast and very easy.
 
 You can see a demo [HERE](http://pencidesign.com/penci-slider-demo)
