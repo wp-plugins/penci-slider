@@ -11,10 +11,17 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Easy to create a WordPress slider, full responsive, nice element transition, loading and SEO optimized.
 
 == Description ==
+https://www.youtube.com/watch?v=rbYXlOAdoYU
 
 Creating slideshows with [Penci Slider](http://pencidesign.com/) is fast and very easy.
 
 You can see a demo [HERE](http://pencidesign.com/penci-slider-demo)
+
+To using it in your theme, see the [installation instructions](http://wordpress.org/plugins/penci-slider/installation/)
+
+Subscribe our newsletter [here](http://pencidesign.com/#footer-subscribe)
+
+You need a theme? see [our premium themes](http://themeforest.net/user/pencidesign/portfolio?rel=pencidesign).
 
 <h4>PenciSlider Features:</h4>
 * Simple, easy to use - perfect for individual users, developers & clients
@@ -38,12 +45,6 @@ You can see a demo [HERE](http://pencidesign.com/penci-slider-demo)
 * fadeInUp
 * fadeInLeft
 * fadeInRight
-
-To using it in your theme, see the [installation instructions](http://wordpress.org/plugins/penci-slider/installation/)
-
-Subscribe our newsletter [here](http://pencidesign.com/#footer-subscribe)
-
-You need a theme? see [our premium themes](http://themeforest.net/user/pencidesign/portfolio?rel=pencidesign).
 
 = Support =
 
