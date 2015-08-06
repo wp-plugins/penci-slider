@@ -72,7 +72,7 @@ Our have a support forum [here](http://support.pencidesign.com/).
 Go to Settings>Penci Slider Options and fill your CSS to Custom CSS box.
 
 == Changelog ==
-= 1.1=
+= 1.1 =
 * Add : Drag Drop to Reorder Slides
 * Add : Transition ready to Penci Slider 
 * Remove: order parametters in penci_slider shortcode
