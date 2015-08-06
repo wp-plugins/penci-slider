@@ -13,7 +13,6 @@ if ( ! function_exists( 'pencislider_func_shortcode' ) ) {
 			'container'  => '',
 			'category'   => '',
 			'height'   	 => '',
-			'order'   	 => 'ASC',
 			'transition' => 'slide',
 			'autoplay'   => 'true',
 			'arrow'      => 'true',
@@ -25,8 +24,6 @@ if ( ! function_exists( 'pencislider_func_shortcode' ) ) {
 		/* Set default value when properties is not valid */
 		if ( ! is_numeric( $container ) ) : $container = '1000'; endif;
 		if ( ! is_numeric( $height ) ) : $height = ''; endif;
-		if ( $order != 'DESC' && $order != 'desc' ) : $order = 'ASC'; endif;
-		$order = strtoupper($order);
 		if ( $transition != 'fade' ) : $transition = 'slide'; endif;
 		if ( $autoplay != 'false' ): $autoplay = 'true'; endif;
 		if ( $arrow != 'false' ): $arrow = 'true'; endif;
@@ -40,7 +37,8 @@ if ( ! function_exists( 'pencislider_func_shortcode' ) ) {
 		global $wp_query, $post;
 		$slider_args = array(
 			'post_type' => 'penci_slider',
-			'order'   	 => $order,
+			'order'     => 'ASC',
+			'orderby'   => 'menu_order'
 		);
 
 		$category = trim( $category );

@@ -4,7 +4,7 @@ Donate link: http://themeforest.net/user/pencidesign/portfolio?rel=pencidesign
 Tags: responsive slider, slider responive, slider responsive plugin, responsive slider plugin, carousel, flex slider, flexslider, image slider, responsive, responsive slider, responsive slides, seo, slider, slideshow, vertical slides, widget, wordpress slider, wordpress slideshow, nice slider, transition effect slider, nice slider wordpress, nice responsive slider wordpress, nice responsive slider wordpress plugin
 Requires at least: 3.9
 Tested up to: 4.3
-Stable tag: 1.0
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -12,14 +12,13 @@ Easy to create a WordPress slider, full responsive, nice element transition, loa
 
 == Description ==
 
-http://www.youtube.com/watch?v=rbYXlOAdoYU
-
 Creating slideshows with [Penci Slider](http://pencidesign.com/) is fast and very easy.
 
 You can see a demo [HERE](http://pencidesign.com/penci-slider-demo)
 
 <h4>PenciSlider Features:</h4>
 * Simple, easy to use - perfect for individual users, developers & clients
+* New in version 1.1: Drag Drop to reorder slides
 * Full Responsive design, SEO optimized slideshows
 * Use shortcode to display everywhere you want
 * 2 slider effect support:  slide & fade
@@ -31,7 +30,7 @@ You can see a demo [HERE](http://pencidesign.com/penci-slider-demo)
 * Beautiful Preloading
 * Set image crop position
 * WordPress Multi Site compatible
-* Compatible with translation plugins (qTranslate & WPML, PolyLang)
+* Transition ready
 * Loading is optimized
 
 <h4>Animation ( update coming soon ):</h4>
@@ -73,6 +72,11 @@ Our have a support forum [here](http://support.pencidesign.com/).
 Go to Settings>Penci Slider Options and fill your CSS to Custom CSS box.
 
 == Changelog ==
+= 1.1=
+* Add : Drag Drop to Reorder Slides
+* Add : Transition ready to Penci Slider 
+* Remove: order parametters in penci_slider shortcode
+
 = 1.0 =
 * Just release 1.0
 

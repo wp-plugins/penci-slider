@@ -3,7 +3,7 @@
 Plugin Name: Penci Slider
 Plugin URI: http://pencidesign.com/
 Description: Easy to create a WordPress slider, full responsive, nice element transition and SEO optimized.
-Version: 1.0
+Version: 1.1
 Author: PenciDesign
 Author URI: http://pencidesign.com/
 License: GPLv2 or later
@@ -90,25 +90,31 @@ if ( ! class_exists( 'Penci_Slider_Main_Class' ) ) :
 			// Enqueue media
 			add_action( 'admin_print_styles', array( $this, 'enqueue_media' ) );
 
-			// load plugin text domain for translations
+			// Load plugin text domain for translations
 			add_action( 'plugins_loaded', array( $this, 'load_text_domain' ) );
 
 			// enqueue main style for front-end
 			add_action( 'wp_enqueue_scripts', array( $this, 'front_style' ) );
 
-			// enqueue script and style in back-end
+			// Ajax action to update reorder
+			add_action( 'wp_ajax_penci_update_slide_order', array( $this, 'penci_slider_update_order' ) );
+
+			// Reorder default columns pencislider in backend
+			add_filter( 'pre_get_posts', array( $this, 'set_penci_slider_admin_order' ) );
+
+			// Enqueue script and style in back-end
 			add_action( 'admin_enqueue_scripts', array( $this, 'admin_enqueue' ) );
 
-			// add settings link to plugins page
+			// Add settings link to plugins page
 			add_filter( 'plugin_action_links', array( $this, 'add_settings_links' ), 10, 2 );
 
-			// register admin options
+			// Register admin options
 			add_action( 'admin_init', array( $this, 'admin_options' ) );
 
-			// add plugin options page
+			// Add plugin options page
 			add_action( 'admin_menu', array( $this, 'add_options_page' ) );
 
-			// add custom options
+			// Add custom options
 			add_action( 'wp_head', array( $this, 'custom_options' ) );
 		}
 
@@ -388,7 +394,51 @@ if ( ! class_exists( 'Penci_Slider_Main_Class' ) ) :
 		 */
 		public function admin_enqueue() {
 			wp_enqueue_style( 'pencislider-admin-css', PENCI_SLIDER_URL . '/css/admin.css' );
-			wp_register_script( 'pencislider-admin-js', PENCI_SLIDER_URL . '/js/admin.js', false, self::$version );
+			wp_enqueue_script( 'jquery-ui-sortable', array( 'jquery' ) );
+			wp_enqueue_script( 'reorder-slides', PENCI_SLIDER_URL . '/js/reorder.js', array( 'jquery' ), false, self::$version );
+			wp_register_script( 'pencislider-admin-js', PENCI_SLIDER_URL . '/js/admin.js', array( 'jquery' ), false, self::$version );
+		}
+
+		/**
+		 * Reorder ajax callback
+		 * @return void
+		 * @since 1.1
+		 */
+		public function penci_slider_update_order() {
+			global $wpdb;
+
+			$post_type = $_POST['postType'];
+			$order     = $_POST['order'];
+
+			if ( ! is_array( $order ) || $post_type != 'penci_slider' )
+				return;
+
+			foreach ( $order as $menu_order => $post_id ) {
+				$post_id    = intval( str_ireplace( 'post-', '', $post_id ) );
+				$menu_order = intval( $menu_order );
+
+				wp_update_post( array(
+						'ID'         => stripslashes( htmlspecialchars( $post_id ) ),
+						'menu_order' => stripslashes( htmlspecialchars( $menu_order ) )
+					) );
+			}
+			die( '1' );
+		}
+
+		/**
+		 * Order the default penci slider page correctly
+		 * @return void
+		 * @since 1.0
+		 */
+		public function set_penci_slider_admin_order( $wp_query ) {
+			if ( is_admin() ) {
+				$post_type = $wp_query->query['post_type'];
+
+				if ( $post_type == 'penci_slider' ) {
+					$wp_query->set( 'orderby', 'menu_order' );
+					$wp_query->set( 'order', 'ASC' );
+				}
+			}
 		}
 
 		/**

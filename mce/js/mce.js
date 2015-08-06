@@ -23,7 +23,6 @@
 									{ type : 'textbox', name : 'container', label: 'Container Width(numeric value only, unit is pixel)', value: '1000' },
 									{ type: 'textbox', name: 'category', label: 'Category Name to filter slides' },
 									{ type : 'textbox', name : 'height', label: 'Slider Height(numeric value only, want smooth height let empty it)' },
-									{ type : 'listbox', name : 'order', label: 'Slides Order', 'values': [{ text: 'Ascending', value: 'asc' }, { text: 'Descending', value: 'desc' }] },
 									{ type    : 'listbox', name    : 'transition', label   : 'Slider Transition', 'values': [{ text: 'Slide', value: 'slide' }, { text: 'Fade', value: 'fade' }] },
 									{ type    : 'listbox', name    : 'autoplay', label   : 'Auto Play Slider?', 'values': [{ text: 'Yes', value: 'true' }, { text: 'No', value: 'false' }] },
 									{ type    : 'listbox', name    : 'arrow', label   : 'Display Next/Prev Button?', 'values': [{ text: 'Yes', value: 'true' }, { text: 'No', value: 'false' }] },
