@@ -1,7 +1,7 @@
 === Penci Slider ===
 Contributors: bboy8k
 Donate link: http://themeforest.net/user/pencidesign/portfolio?rel=pencidesign
-Tags: carousel, flex slider, flexslider, image slider, responsive, responsive slider, responsive slides, seo, slider, slideshow, vertical slides, widget, wordpress slider, wordpress slideshow, nice slider, transition effect slider, nice slider wordpress, nice responsive slider wordpress, nice responsive slider wordpress plugin
+Tags: responsive slider, slider responive, slider responsive plugin, responsive slider plugin, carousel, flex slider, flexslider, image slider, responsive, responsive slider, responsive slides, seo, slider, slideshow, vertical slides, widget, wordpress slider, wordpress slideshow, nice slider, transition effect slider, nice slider wordpress, nice responsive slider wordpress, nice responsive slider wordpress plugin
 Requires at least: 3.9
 Tested up to: 4.3
 Stable tag: 1.0
