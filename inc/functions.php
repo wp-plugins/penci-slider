@@ -2,7 +2,7 @@
 /* Set default value when plugins is active */
 $defaults_options = array(
 	'title_font'                     => 'Default',
-	'title_off_uppercase'            => '0',
+	'title_off_uppercase'            => '',
 	'title_font_size'                => '42',
 	'title_font_weight'              => 'normal',
 	'caption_font'                   => 'Open Sans',

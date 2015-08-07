@@ -33,7 +33,7 @@
 						<label>&nbsp;</label>
 					</div>
 					<div class="kang-settings-input">
-						<input type="checkbox" name="penci_slider_options[title_off_uppercase]" value="0" <?php checked( $plugin_options['title_off_uppercase'], 1 ); ?> /><span class="penci-more-detail"><?php _e( 'Turn Off Uppercase In Slide Title', 'pencidesign'); ?></span>
+						<input type="checkbox" name="penci_slider_options[title_off_uppercase]" <?php checked( (bool) $plugin_options['title_off_uppercase'], true ); ?> /><span class="penci-more-detail"><?php _e( 'Turn Off Uppercase In Slide Title', 'pencidesign'); ?></span>
 					</div>
 				</div>
 				<div class="kang-settings-field">

@@ -496,7 +496,7 @@ if ( ! class_exists( 'Penci_Slider_Main_Class' ) ) :
 			$options  = array();
 			$defaults = array(
 				'title_font'                     => 'Default',
-				'title_off_uppercase'            => '0',
+				'title_off_uppercase'            => '',
 				'title_font_size'                => '42',
 				'title_font_weight'              => 'normal',
 				'caption_font'                   => 'Open Sans',

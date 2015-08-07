@@ -32,9 +32,6 @@ endif;
 $overlay_opacity = isset( $options['overlay_opacity'] ) ? $options['overlay_opacity'] : '0.4';
 if( !in_array( $overlay_opacity, array( '0', '0.05', '0.1', '0.15', '0.2', '0.25', '0.3', '0.35', '0.4', '0.45', '0.5', '0.55', '0.6', '0.65', '0.7', '0.75', '0.8', '0.85', '0.9', '0.95', '1' ) ) ): $overlay_opacity = '0.4'; endif;
 
-$title_off_uppercase = isset( $options['title_off_uppercase'] ) ? $options['title_off_uppercase'] : '0';
-if( $title_off_uppercase != '1' ): $title_off_uppercase = '0'; endif;
-
 $title_font_weight = isset( $options['title_font_weight'] ) ? $options['title_font_weight'] : 'normal';
 $caption_font_weight = isset( $options['caption_font_weight'] ) ? $options['caption_font_weight'] : 'normal';
 $button_font_weight = isset( $options['button_font_weight'] ) ? $options['button_font_weight'] : 'normal';
@@ -80,7 +77,7 @@ $custom_css = isset( $options['custom_css'] ) ? $options['custom_css'] : '';
 	.penci-slider .pencislider-container .pencislider-content .pencislider-button { font-family: '<?php echo $button_font; ?>', sans-serif; }
 	<?php endif; ?>
 
-	<?php if( $title_off_uppercase == '1' ): ?>.penci-slider .pencislider-container .pencislider-content .pencislider-title { text-transform: none; }<?php endif; ?>
+	<?php if( $options['title_off_uppercase'] ): ?>.penci-slider .pencislider-container .pencislider-content .pencislider-title { text-transform: none; }<?php endif; ?>
 	.penci-slider ul.slides li:before {  opacity: <?php echo $overlay_opacity; ?>; }
 	.penci-slider .pencislider-container .pencislider-content .pencislider-title { font-size: <?php echo $title_font_size; ?>px; font-weight: <?php echo $title_font_weight; ?>; }
 	.penci-slider .pencislider-container .pencislider-content .pencislider-caption { font-size: <?php echo $caption_font_size; ?>px; font-weight: <?php echo $caption_font_weight; ?>; }
