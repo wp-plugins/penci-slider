@@ -1,0 +1,408 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Penci Slider v1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2015-08-06 18:14:22+0000\n"
+"Last-Translator: admin <youremail@domain.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Your language\n"
+"X-Poedit-Country: YOUR COUNTRY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: inc/functions.php:83
+#@ pencidesign
+msgid "Upload"
+msgstr ""
+
+#: inc/functions.php:84
+#@ pencidesign
+msgid "Remove Upload"
+msgstr ""
+
+#: inc/functions.php:92
+#@ pencidesign
+msgid "Add Media"
+msgstr ""
+
+#: inc/functions.php:93
+#@ pencidesign
+msgid "Remove Media"
+msgstr ""
+
+#: inc/pencislider-form.php:2
+#: init.php:536
+#@ pencidesign
+msgid "Penci Slider Options"
+msgstr ""
+
+#: inc/pencislider-form.php:13
+#@ pencidesign
+msgid "General options"
+msgstr ""
+
+#: inc/pencislider-form.php:14
+#@ pencidesign
+msgid "Responsive Design Options"
+msgstr ""
+
+#: inc/pencislider-form.php:21
+#@ pencidesign
+msgid "Slide Titlte Font:"
+msgstr ""
+
+#: inc/pencislider-form.php:36
+#@ pencidesign
+msgid "Turn Off Uppercase In Slide Title"
+msgstr ""
+
+#: inc/pencislider-form.php:41
+#: inc/pencislider-form.php:154
+#: inc/pencislider-form.php:182
+#: inc/pencislider-form.php:210
+#@ pencidesign
+msgid "Slide Title Font Size:"
+msgstr ""
+
+#: inc/pencislider-form.php:45
+#: inc/pencislider-form.php:158
+#: inc/pencislider-form.php:186
+#: inc/pencislider-form.php:214
+#@ pencidesign
+msgid "Font size for slide title, only numeric value, unit is pixel"
+msgstr ""
+
+#: inc/pencislider-form.php:50
+#@ pencidesign
+msgid "Slide Titlte Font Weight:"
+msgstr ""
+
+#: inc/pencislider-form.php:62
+#@ pencidesign
+msgid "Slide Caption Font:"
+msgstr ""
+
+#: inc/pencislider-form.php:74
+#: inc/pencislider-form.php:163
+#: inc/pencislider-form.php:191
+#: inc/pencislider-form.php:219
+#@ pencidesign
+msgid "Slide Caption Font Size:"
+msgstr ""
+
+#: inc/pencislider-form.php:78
+#: inc/pencislider-form.php:167
+#: inc/pencislider-form.php:195
+#: inc/pencislider-form.php:223
+#@ pencidesign
+msgid "Font size for slide caption, only numeric value, unit is pixel"
+msgstr ""
+
+#: inc/pencislider-form.php:83
+#@ pencidesign
+msgid "Slide Caption Font Weight:"
+msgstr ""
+
+#: inc/pencislider-form.php:95
+#@ pencidesign
+msgid "Slide Button Font:"
+msgstr ""
+
+#: inc/pencislider-form.php:107
+#: inc/pencislider-form.php:172
+#: inc/pencislider-form.php:200
+#: inc/pencislider-form.php:228
+#@ pencidesign
+msgid "Slide Button Font Size:"
+msgstr ""
+
+#: inc/pencislider-form.php:111
+#: inc/pencislider-form.php:176
+#: inc/pencislider-form.php:204
+#: inc/pencislider-form.php:232
+#@ pencidesign
+msgid "Font size for slide button, only numeric value, unit is pixel"
+msgstr ""
+
+#: inc/pencislider-form.php:116
+#@ pencidesign
+msgid "Slide Button Font Weight:"
+msgstr ""
+
+#: inc/pencislider-form.php:128
+#@ pencidesign
+msgid "Slide Pattern Opacity:"
+msgstr ""
+
+#: inc/pencislider-form.php:142
+#@ pencidesign
+msgid "Custom CSS:"
+msgstr ""
+
+#: inc/pencislider-form.php:150
+#@ pencidesign
+msgid "Options in This Tab for Tablet, Small Tablet and Mobile Device"
+msgstr ""
+
+#: inc/pencislider-form.php:151
+#@ pencidesign
+msgid "Settings for Tablet Device"
+msgstr ""
+
+#: inc/pencislider-form.php:179
+#@ pencidesign
+msgid "Settings for Small Tablet Device"
+msgstr ""
+
+#: inc/pencislider-form.php:207
+#@ pencidesign
+msgid "Settings for Mobile Device"
+msgstr ""
+
+#: inc/pencislider-form.php:238
+#@ pencidesign
+msgid "Save"
+msgstr ""
+
+#: inc/shortcode.php:116
+#@ pencidesign
+msgid "Slider item"
+msgstr ""
+
+#: init.php:127
+#@ taxonomy general name
+msgid "Slides"
+msgstr ""
+
+#: init.php:128
+#@ pencidesign
+msgid "Slide"
+msgstr ""
+
+#: init.php:129
+#@ pencidesign
+msgid "Search Slides"
+msgstr ""
+
+#: init.php:130
+#@ pencidesign
+msgid "All Slides"
+msgstr ""
+
+#: init.php:131
+#@ pencidesign
+msgid "Parent Slide"
+msgstr ""
+
+#: init.php:132
+#@ pencidesign
+msgid "Edit Slide"
+msgstr ""
+
+#: init.php:133
+#@ pencidesign
+msgid "Update Slide"
+msgstr ""
+
+#: init.php:134
+#@ pencidesign
+msgid "Add New Slide"
+msgstr ""
+
+#: init.php:135
+#: init.php:142
+#@ pencidesign
+msgid "Penci Slider"
+msgstr ""
+
+#: init.php:161
+#: init.php:169
+#@ pencidesign
+msgid "Slider Categories"
+msgstr ""
+
+#: init.php:162
+#@ pencidesign
+msgid "Slider Category"
+msgstr ""
+
+#: init.php:163
+#@ pencidesign
+msgid "Search Slider Categories"
+msgstr ""
+
+#: init.php:164
+#@ pencidesign
+msgid "All Slider Categories"
+msgstr ""
+
+#: init.php:165
+#@ pencidesign
+msgid "Edit Slider Category"
+msgstr ""
+
+#: init.php:166
+#@ pencidesign
+msgid "Update Slider Category"
+msgstr ""
+
+#: init.php:167
+#@ pencidesign
+msgid "Add New Slider Category"
+msgstr ""
+
+#: init.php:168
+#@ pencidesign
+msgid "New Slider Category"
+msgstr ""
+
+#: init.php:191
+#@ pencidesign
+msgid "Slide Settings"
+msgstr ""
+
+#: init.php:192
+#@ pencidesign
+msgid "Choose image and fill to fields bellow to save all slide settings"
+msgstr ""
+
+#: init.php:198
+#@ pencidesign
+msgid "Slide Image"
+msgstr ""
+
+#: init.php:199
+#@ pencidesign
+msgid "The image should be between 1600px - 2000px in width and have a minimum height of 650px for best results. Click the \"Upload\" button to begin uploading your image"
+msgstr ""
+
+#: init.php:205
+#@ pencidesign
+msgid "Slide Title"
+msgstr ""
+
+#: init.php:206
+#@ pencidesign
+msgid "Fill the slide title"
+msgstr ""
+
+#: init.php:212
+#@ pencidesign
+msgid "Slide Title Color"
+msgstr ""
+
+#: init.php:213
+#@ pencidesign
+msgid "Color for Slide Title"
+msgstr ""
+
+#: init.php:219
+#@ pencidesign
+msgid "Slide Caption"
+msgstr ""
+
+#: init.php:220
+#@ pencidesign
+msgid "Fill the slide caption"
+msgstr ""
+
+#: init.php:226
+#@ pencidesign
+msgid "Slide Caption Color"
+msgstr ""
+
+#: init.php:227
+#@ pencidesign
+msgid "Color for Slide Caption"
+msgstr ""
+
+#: init.php:233
+#@ pencidesign
+msgid "Button Text"
+msgstr ""
+
+#: init.php:234
+#@ pencidesign
+msgid "If you would like a button to appear below your slide caption, please fill the text for it here."
+msgstr ""
+
+#: init.php:240
+#@ pencidesign
+msgid "Button Background Color"
+msgstr ""
+
+#: init.php:241
+#@ pencidesign
+msgid "Background for Button"
+msgstr ""
+
+#: init.php:247
+#@ pencidesign
+msgid "Button Text Color"
+msgstr ""
+
+#: init.php:248
+#@ pencidesign
+msgid "Text Color for Button"
+msgstr ""
+
+#: init.php:254
+#@ pencidesign
+msgid "Button Link"
+msgstr ""
+
+#: init.php:255
+#@ pencidesign
+msgid "Fill the URL for slide button here."
+msgstr ""
+
+#: init.php:261
+#@ pencidesign
+msgid "Slide Alignment"
+msgstr ""
+
+#: init.php:262
+#@ pencidesign
+msgid "Select the alignment for your caption and button."
+msgstr ""
+
+#: init.php:273
+#@ pencidesign
+msgid "Elements Animation"
+msgstr ""
+
+#: init.php:274
+#@ pencidesign
+msgid "Choose Animation of Slide title, Caption and Button when slide is active"
+msgstr ""
+
+#: init.php:460
+#@ pencidesign
+msgid "Settings"
+msgstr ""
+
+#: init.php:461
+#@ pencidesign
+msgid "Support"
+msgstr ""
+
+#: init.php:462
+#@ pencidesign
+msgid "Need A Theme"
+msgstr ""
+
+#: init.php:536
+#@ pencidesign
+msgid "Penci Slider General Options"
+msgstr ""
+
