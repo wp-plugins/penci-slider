@@ -3,7 +3,7 @@
 Plugin Name: Penci Slider
 Plugin URI: http://pencidesign.com/
 Description: Easy to create a WordPress slider, full responsive, nice element transition and SEO optimized.
-Version: 1.1
+Version: 1.1.1
 Author: PenciDesign
 Author URI: http://pencidesign.com/
 License: GPLv2 or later

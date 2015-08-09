@@ -4,7 +4,7 @@ Donate link: http://themeforest.net/user/pencidesign/portfolio?rel=pencidesign
 Tags: responsive slider, slider responive, slider responsive plugin, responsive slider plugin, carousel, flex slider, flexslider, image slider, responsive, responsive slider, responsive slides, seo, slider, slideshow, vertical slides, widget, wordpress slider, wordpress slideshow, nice slider, transition effect slider, nice slider wordpress, nice responsive slider wordpress, nice responsive slider wordpress plugin
 Requires at least: 3.9
 Tested up to: 4.3
-Stable tag: 1.1
+Stable tag: 1.1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -73,6 +73,9 @@ Our have a support forum [here](http://support.pencidesign.com/).
 Go to Settings>Penci Slider Options and fill your CSS to Custom CSS box.
 
 == Changelog ==
+= 1.1.1 =
+* Fix:   Some minor bugs
+
 = 1.1 =
 * Add : Drag Drop to Reorder Slides
 * Add : Transition ready to Penci Slider 
